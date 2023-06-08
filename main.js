@@ -20,10 +20,10 @@ form.addEventListener('submit', (e) => {
         <b>Phone: </b>${phone.value}
         <br>
         <br>
-        <b>Message: </b>${message.value}
-        <br>
-        <br>
         <b>city: </b>${city.value}
+        <br>
+        <br>
+        <b>Message: </b>${message.value}
     `
     Email.send({
         SecureToken: "c20b46f0-b685-4b9c-bf37-db33f8f7f071",
